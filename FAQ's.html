@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+    <!-- site metas -->
+    <title>Multinational Book of Records</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <!-- style css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="form.css" />
+    <link rel="stylesheet" type="text/css" href="FAQ.css" />
+    <!-- Responsive-->
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- fevicon -->
+    <link rel="icon" href="images/fevicon.png" type="image/gif" />
+    <!-- font css -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css" />
+    <!-- Tweaks for older IEs-->
+    <link
+      rel="stylesheet"
+      href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"
+    />
+  </head>
+  <body>
+    <div class="header_section">
+      <div class="container-fluid">
+        <nav
+          class="navbar navbar-expand-lg navbar-light bg-light"
+          style="margin-right: 200px"
+        >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="AboutUs.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Record Gallery</a>
+              </li>
+              <li class="dropdown nav-item">
+                <a
+                  class="btn dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  class="nav-link"
+                  style="
+                    font-family: 'Poppins', sans-serif;
+                    color: black;
+                    font-size: 17px;
+                  "
+                >
+                  APPLY FOR RECORD
+                </a>
+                <div
+                  class="dropdown-menu"
+                  aria-labelledby="dropdownMenuButton"
+                  style="position: absolute"
+                >
+                  <a class="dropdown-item" href="ApplicationIndevidual.html"
+                    >Application Form - Individual</a
+                  >
+                  <a class="dropdown-item" href="ApplicationOrganization.html"
+                    >Application Form - Organization</a
+                  >
+                  <a class="dropdown-item" href="ApplicationCorporate.html"
+                    >Application Form - Corporate</a
+                  >
+                  <a class="dropdown-item" href="ClaimIndevidual.html"
+                    >Claim Form -Individual</a
+                  >
+                  <a class="dropdown-item" href="ClaimOrganization.html"
+                    >Claim Form - Organization</a
+                  >
+                  <a class="dropdown-item" href="ClaimCorporate.html"
+                    >Claim Form - Corporate</a
+                  >
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Procedure&Guideline.html">Procedure & Guideline</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="FAQ's.html">FAQs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ContactUs.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <!-- banner section start -->
+      <div class="banner_section layout_padding" style="height: 50vh">
+        <div class="container">
+          <div id="banner_slider" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="banner_img text-center">
+                      <img src="images/logo.png" style="height: 200px" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- banner section end -->
+    </div>
+    <!-- header section end -->
+    <!-- Form section Start -->
+    <!-- MultiStep Form -->
+    <div class="row justify-content-center">
+      <div class="col-md-7 col-md-offset-3">
+        <h1
+          style="
+            font-weight: bold;
+            font-size: 40px;
+            text-transform: uppercase;
+            color: #ee0979;
+            margin-top: 2rem;
+          "
+          class="text-center"
+        >
+          Frequently asked Questions
+        </h1>
+
+        <div class="divBase" style="text-align: justify">
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseOne"
+                >
+                  What is a Record?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseOne"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Record is proven information related to any person,
+                  organization or event. This valid information should be backed
+                  with evidences and can be measured and witnessed.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseTwo"
+                >
+                  What is a World Record?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  World Record is proven information related to any person,
+                  organization or event; if it is unique/ extraordinary/ special
+                  in some way or happening for the first time. A claimant must
+                  be able to prove this achievable, measurable, challengeable
+                  and recognizable incident with proper evidences. It may be a
+                  personal achievement or an incident.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseThree"
+                >
+                  How a World Record is recognized?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  There are few ways by which a record is recognized officially
+                  as World Record. Most common method is receiving a claim in
+                  which a person presents a claim to GBWR to recognize the
+                  attempt as world record. In some cases someone else also
+                  claims the record on behalf of a person/ incident, our
+                  research team also find something unique or extraordinary and
+                  recognizes it through honoris causa.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingFour">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFour"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseFour"
+                >
+                  What is the process of becoming a World Record holder
+                  (attempting/breaking a record)?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseFour"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingFour"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                    The record setting process consists of four steps:
+                  <ol class=" list-group-numbered"> 
+                    <li class="list-group-item"> 
+                        Record Application 
+                    </li> 
+                    <li class="list-group-item"> 
+                        Approval from GBWR team 
+                    </li> 
+                    <li class="list-group-item"> 
+                        Record attempt following all the procedural guidelines
+                    </li> 
+                    <li class="list-group-item"> 
+                        Sending the Claim Form along with evidence.
+                    </li> 
+                </ol> 
+                  After you receive the confirmation along with your Claim ID; you need to follow the instructions mailed by GBWR.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingFive">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFive"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseFive"
+                >
+                There are two Forms in the website of GBWR; ‘Record Application Form’ and ‘Record Claim Form’ which Form I should submit?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseFive"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingFive"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  <p>If you are planning to attempt a world record in future then you are supposed to fill the ‘Record Application Form’ and mail us. Our team will scrutinize it and mail you the ‘Record Specific Guideline’ which you need to follow at the time of World Record attempt. This guideline would help you to ensure the attempt turn in to a successful record attempt.</p>
+                  <p>If you have already attempted a World Record (like collection of something); then you are supposed to fill the ‘Record Claim Form’ and mail us along with all evidences and witness statements for scrutiny and recognition.</p>
+                  <p>You can get the form from the official website of Golden Book of World Records (GBWR); ‘www.goldenbookofworldrecords.com’ from the download section.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingSix">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseSix"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseSix"
+                >
+                Can I submit a record on behalf of someone else?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseSix"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingSix"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                    Yes, but we accept the 3rd party record claims only in special cases. You need to complete all the formalities and provide all the evidences.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingSeven">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseSeven"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseSeven"
+                >
+                What is the World Record Claim application deadline?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseSeven"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingSeven"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                    You can submit the record claim any time after attempting the record; provided you must have all the evidences.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingEight">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseEight"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseEight"
+                >
+                How long will it take for me to get a response to my record-breaking application?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseEight"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingEight"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                    It depends on the record process method selected by applicant's.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingNine">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseNine"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseNine"
+                >
+                Is there any service for Fast Processing my Application/Claim?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseNine"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingNine"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                    Golden Book of World Records offers normal record processing in 2 to 3 months for existing record’s claim and 3-4 months for a record claim with a new title.
+
+                    We also offer ‘Rapid Processing’; a priority processing service which ensures rapid processing of your World Record Claim within a month. You can request for ‘Rapid Processing Service’ (RPS) at any time. It costs additional $ 50. It is a priority processing service for the processing of record claim; it does not guarantee that claim is recognized as a World Record. We can not refund the RPS fee for unsuccessful applications.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTen">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTen"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseTen"
+                >
+                How can I get On-the-Spot Recognition (OSR) of my World Record attempt?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseTen"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingTen"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                    For On-the-Spot Recognition; Records Management Judge (RMJ) must attend your event and verify your record immediately. The additional charge of on-the-spot recognition ($ 175) along with the cost of stay, food and travelling of the adjudicator must be borne by the organizer/sponsor.
+
+ 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingEleven">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseEleven"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseEleven"
+                >
+                Is it necessary to invite a judge/adjudicator for World Record approval?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseEleven"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingEleven"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                    No, it’s not necessary. You can send video recording and photographs with all required documents to our office for record approval. You need to invite the Records Management Judge (RMJ) only for on-the-spot recognition.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwelve">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwelve"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseTwelve"
+                >
+                Does Golden Book of World Records pay their World Record setter/breaker?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseTwelve"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingTwelve"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                    Golden Book of World Records is an independent World Records keeping authority. Our role is just to verify a claim and certify it as a World Record in GBWR.
+                    We do neither pay a World Record setter/breaker for their personal achievement nor provide any direct or indirect financial assistance.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThirteen">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThirteen"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseThirteen"
+                >
+                How much do I have to pay when I make my record attempt?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseThirteen"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingThirteen"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                    There is no charge for attempting the record. But if your attempt is successful and you want to have the ‘World Record holder’s Kit’; then you need to pay record processing charge as per category (individual $ 75, organization & NPO $ 175 and corporates & government $ 250) for it. ‘World Record holder’s Kit’ contains official Certificate of your achievement along with a T-shirt, Stickers and Badge of Golden Book of World Records.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingFourteen">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFourteen"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseFourteen"
+                >
+                Do all the successfully attempted records are published on the website?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseFourteen"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingFourteen"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                    Golden Book of World Records works through an online portal which is updated every day for the convenience of the visitors and aspirants. We try to keep all the records on the website which are liked/most browsed by the people. Recently we have started the previous World Record holder section and we are keeping the name of a World Record Holder forever in our official website (current as well as previous world record holders).
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingFifteen">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFifteen"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseFifteen"
+                >
+                I am not finding my World Record in the Website?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseFifteen"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingFifteen"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                    There are thousands of World Records in our database and these are counting on every day. We try to present a sufficient number of World Records in all categories online. If you have recently set/break a World Record then check the site regularly; your achievement should be online within 2-3 months after the approval. If still not found on the website then kindly inform us through email.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingSixteen">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseSixteen"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseSixteen"
+                >
+                Can I check the last attempted records detail in your website?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseSixteen"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingSixteen"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                    We do provide the details of most of the records on the website; which are successfully attempted till date.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingSeventeen">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseSeventeen"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseSeventeen"
+                >
+                I have found an error in website, should I inform you?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseSeventeen"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingSeventeen"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                    We always welcome our readers, visitor or aspirants’ views to update the World Records data. You are supposed to inform us the correction through emai
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingEighteen">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseEighteen"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseEighteen"
+                >
+                I am a GBWR Record holder. Recently I myself broke my own Record. Do I need to apply as new Record and pay full processing fees?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseEighteen"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingEighteen"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                    No, you can upgrade your previous World Record by submitting the Claim Form along with required evidences. You can upgrade your record by paying only 50 $ instead of full processing charge. A new certificate would be issued for your achievement.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingNineteen">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseNineteen"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseNineteen"
+                >
+                Can I use the logo of Golden Book of World Records?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseNineteen"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingNineteen"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  <p>Yes, if you are a Golden Book of World Record holder then you can use the logo and word mark of GBWR. By becoming the Record holder of Golden Book of World record; you are taking on the responsibility of becoming our Brand Ambassador. We allow you to use the name and logo of GBWR at your visiting cards, websites, letter heads, advertisements, endorsements etc.</p>
+                  <p>This is to be noted that only Golden Book of World Record holders are allowed to use the logo and wordmark of GBWR on an exclusive basis. Anybody else can not use it.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwenty">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwenty"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseTwenty"
+                >
+                Who can witness the World Record attempt?
+            </button>
+                
+            </h2>
+               
+                
+              <div
+                id="flush-collapseTwenty"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingTwenty"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                    Following can give the witness statement:
+                    <ol class=" list-group-numbered"> 
+                        <li class="list-group-item"> 
+                            Gazetted officers 
+                        </li> 
+                        <li class="list-group-item"> 
+                            Chartered Accountant 
+                        </li> 
+                        <li class="list-group-item"> 
+                            Notarized Advocate
+                        </li> 
+                        <li class="list-group-item"> 
+                            Resident Doctor
+                        </li> 
+                        <li class="list-group-item"> 
+                            Elected Representatives
+                        </li> 
+                        <li class="list-group-item"> 
+                            GBWR World Record holders
+                        </li> 
+                        <li class="list-group-item"> 
+                            Person with national or International recognition
+                        </li> 
+                        <li class="list-group-item"> 
+                            Head of an education Institutions
+                        </li> 
+                        <li class="list-group-item"> 
+                            Head of any recognized Not- for- Profit Organization like Lion or Rotary Club et
+                        </li> 
+                    </ol>
+                    <b>Note:</b>  Person giving witness statement must not have blood relation with the person attempting a World Record and in case of institutional attempts he should not have any relation with the organization.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Form section end -->
+
+    <!-- Footer -->
+    <footer
+      class="text-center text-white"
+      style="
+        background: conic-gradient(
+          from -0.5turn at bottom right,
+          deeppink,
+          cyan,
+          rebeccapurple
+        );
+      "
+    >
+      <!-- Grid container -->
+      <div class="container-fluid">
+        <!-- Section: Links -->
+        <section class="m-3">
+          <!-- Grid row-->
+          <div class=" text-center d-flex justify-content-center pt-5 "">
+          <!-- Grid column -->
+          <div class="mt-4 mr-4 m">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="index.html" class="text-white">Home</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="mt-4 mr-4 m">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="AboutUs.html" class="text-white">About Us</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="mt-4 mr-4 m">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!" class="text-white">Record Gallery</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="mt-4 mr-4 m">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="ApplicationIndevidual.html" class="text-white"
+                >Apply For Record</a
+              >
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="mt-4 mr-4 m">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="Procedure&Guideline.html" class="text-white">Procedure & Guideline</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+          <!-- Grid column -->
+          <div class="mt-4 mr-4 m">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="FAQ's.html" class="text-white">FAQ's</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+          <!-- Grid column -->
+          <div class="mt-4 mr-4 m">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="ContactUs.html" class="text-white">Contact Us</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid row-->
+        </section>
+        <!-- Section: Links -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        Copyright © 2023 Golden Book Of World Records owned by GBWR Talent
+        Management Pvt. Ltd., an ISO 9001:2015 Certified Company
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <!-- Javascript files-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/plugin.js"></script>
+
+    <!-- sidebar -->
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="form.js"></script>
+  </body>
+</html>

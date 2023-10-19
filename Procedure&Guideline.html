@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+    <!-- site metas -->
+    <title>Multinational Book of Records</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <!-- style css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="form.css" />
+    <link rel="stylesheet" type="text/css" href="FAQ.css" />
+    <!-- Responsive-->
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- fevicon -->
+    <link rel="icon" href="images/fevicon.png" type="image/gif" />
+    <!-- font css -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css" />
+    <!-- Tweaks for older IEs-->
+    <link
+      rel="stylesheet"
+      href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"
+    />
+  </head>
+  <body>
+    <div class="header_section">
+      <div class="container-fluid">
+        <nav
+          class="navbar navbar-expand-lg navbar-light bg-light"
+          style="margin-right: 200px"
+        >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="AboutUs.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Record Gallery</a>
+              </li>
+              <li class="dropdown nav-item">
+                <a
+                  class="btn dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  class="nav-link"
+                  style="
+                    font-family: 'Poppins', sans-serif;
+                    color: black;
+                    font-size: 17px;
+                  "
+                >
+                  APPLY FOR RECORD
+                </a>
+                <div
+                  class="dropdown-menu"
+                  aria-labelledby="dropdownMenuButton"
+                  style="position: absolute"
+                >
+                  <a class="dropdown-item" href="ApplicationIndevidual.html"
+                    >Application Form - Individual</a
+                  >
+                  <a class="dropdown-item" href="ApplicationOrganization.html"
+                    >Application Form - Organization</a
+                  >
+                  <a class="dropdown-item" href="ApplicationCorporate.html"
+                    >Application Form - Corporate</a
+                  >
+                  <a class="dropdown-item" href="ClaimIndevidual.html"
+                    >Claim Form -Individual</a
+                  >
+                  <a class="dropdown-item" href="ClaimOrganization.html"
+                    >Claim Form - Organization</a
+                  >
+                  <a class="dropdown-item" href="ClaimCorporate.html"
+                    >Claim Form - Corporate</a
+                  >
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Procedure&Guideline.html">Procedure & Guideline</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="FAQ's.html">FAQs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ContactUs.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <!-- banner section start -->
+      <div class="banner_section layout_padding" style="height: 50vh">
+        <div class="container">
+          <div id="banner_slider" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="banner_img text-center">
+                      <img src="images/logo.png" style="height: 200px" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- banner section end -->
+    </div>
+    <!-- header section end -->
+    <!-- Form section Start -->
+    <!-- MultiStep Form -->
+    <div class="row justify-content-center">
+      <div class="col-md-7 col-md-offset-3">
+        <h1
+          style="
+            font-weight: bold;
+            font-size: 40px;
+            text-transform: uppercase;
+            color: #ee0979;
+            margin-top: 2rem;
+          "
+          class="text-center"
+        >
+        Procedure & Guideline
+        </h1>
+
+        <div class="divBase" style="text-align: justify">
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseOne"
+                >
+                Setting a Record
+                </button>
+              </h2>
+              <div
+                id="flush-collapseOne"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                    By becoming the Record holder of GBWR, you are taking on responsibility of becoming our Brand ambassador. We allow you to use the name & logo of GBWR and accept to appreciate and respect the brand.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseTwo"
+                >
+                Process of Approval of Record
+                </button>
+              </h2>
+              <div
+                id="flush-collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                    To become a Golden Book of World Record holder; you can either set a new record or break an existing record. Following are the requirements to become a record holder of GBWR:
+                    <ol class=" list-group-numbered"> 
+                        <li class="list-group-item"> 
+                            Prepare your self for the record and practice for final attempt. 
+                        </li> 
+                        <li class="list-group-item"> 
+                            Fill the form of GBWR and mail us at info@goldenbookofworldrecords.com 
+                        </li> 
+                        <li class="list-group-item"> 
+                            After receiving your form, the team of GBWR would review it and give you acknowledgement of acceptance to attempt the record.
+                        </li> 
+                        <li class="list-group-item"> 
+                            You can invite an Record Management Judge/adjudicator from GBWR (not mandatory)
+                        </li> 
+                        <li class="list-group-item"> 
+                            Along with acknowledgement of acceptance you will receive record specific guidelines which you need to follow during attempting the record.
+                        </li> 
+                        <li class="list-group-item"> 
+                            Attempt the records in accordance to the guidelines.
+                        </li> 
+                        <li class="list-group-item"> 
+                            Send all the evidences to GBWR in case you have not invited an Record Management Judge/adjudicator. (you are supposed to email all the evidences)
+                        </li> 
+                        <li class="list-group-item"> 
+                            If your record is approved, you would be provided the Certificate of GBWR.
+                        </li> 
+                    </ol> 
+
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseThree"
+                >
+                Record Certification
+                </button>
+              </h2>
+              <div
+                id="flush-collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                    <p>Make your record-breaking experience event an unforgettable event. Use of the GBWR’s logo at your attempt can generate excitement and attention. You can freely use the GBWR logo in T-shirts, Banners, posters, handouts and media release with prior permission.</p>
+
+                    <p>To acknowledge the World Record attempt by an official RMJ on the spot a provisional certificate is presented to the successful claimant after the verification of the claim. GBWR Provisional Certificate contains the details of the record including the name of the record holder, date and location of the record attempt. The certificate helps the record holder to demonstrate and publicize his/her world class achievement.</p>
+                    
+                    <p>GBWR also provides extra Certification facility, which enables record holder to order ‘duplicates of the original standard certificate’. These standard extra certificates with the seal of approval of GBWR can be presented on site of record attempt by an official adjudicator or sent to the record holder afterwards.</p>
+                    
+                    <p>GBWR also offers ‘Personalized Certificate’ in case of mass attempt. Personalized Certificate enables record holders to order an edited version of the standard certificate. These personalized extra certificates (coordination/ Participation) enable record holders to include his/her name as well as some other information as requested and approved by GBWR. Thus all those who coordinated/participated in the successful record attempt can have their name on an official Personalized GBWR Certificate.</p>
+                    
+                    <p>Please click here to download a record application form. You have to take a print out of this form, fill it manually and send us a scanned copy. Once you’ve filled out the form completely you can submit it by sending an email to info@goldenbookofworldrecords.com</p>
+                    
+                    <p>Incomplete forms may be rejected so try to fill all the details to the best of your knowledge.</p>
+                    
+                    <p>After you’ve attempted the record you’ll need to fill the records claim form and send an email to info@goldenbookofworldrecords.com. The claim has to be supported by all required evidence. Please click here to download the Records Claim Form.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingFour">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFour"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseFour"
+                >
+                General Rules of Golden Book of World Records
+                </button>
+              </h2>
+              <div
+                id="flush-collapseFour"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingFour"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  <ol class=" list-group-numbered"> 
+                    <li class="list-group-item"> 
+                        GBWR does not promote or accept attempts or world records that can potentially lead to any kind of destruction or harm to property, health, morality or general well-being of an individual/organization/society.
+                    </li> 
+                    <li class="list-group-item"> 
+                        Approval or disapproval of any attempt and certification will be wholly and solely the decision of the GBWR team.
+                    </li> 
+                    <li class="list-group-item"> 
+                        We accept online claims and registrations of record attempts in some special cases for completing the certificate verification process, the attempter has to send all the required documents at the GBWR office address.
+                    </li> 
+                    <li class="list-group-item"> 
+                        Record approval and certification process may take 1 day to 4 months as per Instant Recognition/ Rapid processing/Normal processing.
+                    </li> 
+                    <li class="list-group-item"> 
+                        The processing charge for claiming the Record in Normal Processing (3-4 months) is $75 per claim for Individual Records, $125 per claim for Organizations & Institutions and $250 per claim for Corporate & Government. In Rapid Processing (1 month) it is $125 per claim for Individual Records, $250 per claim for Organizations & Institutions and $350 per claim for Corporate & Government, while in Instant Recognition Processing (24 hours) the processing charge is $250 per claim for Individual Records, $350 per claim for Organizations & Institutions and $400 per claim for Corporate & Government. It is to be noted that there is additional tax to be paid, as the mentioned Processing Charge is excluding the tax.
+                    </li> 
+                    <li class="list-group-item"> 
+                        All the documents should be duly signed by all the witnesses.
+                    </li> 
+                    <li class="list-group-item"> 
+                        At least 2 witnesses should be present at the time of record attempting.
+                    </li> 
+                    <li class="list-group-item"> 
+                        Witness information should be sent along with all evidence proof.
+                    </li> 
+                    <li class="list-group-item"> 
+                        GBWR team members need not to be mandatorily present at the time of attempting a record. However, the authenticity of the record should be properly taken care of by having either an RMJ/s or/and witness/es at the record attempt location.
+                    </li> 
+                </ol> 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingFive">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFive"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseFive"
+                >
+                Claiming Record Procedure
+                </button>
+              </h2>
+              <div
+                id="flush-collapseFive"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingFive"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                    <ol class=" list-group-numbered"> 
+                        <li class="list-group-item"> 
+                            Record Claiming Material should be emailed; clearly mentioning the Claim ID, Applicant’s Name, Address and Contact Details.
+                        </li> 
+                        <li class="list-group-item"> 
+                            The processing charge for claiming the Record is $75 per claim for Individual Records, $125 per claim for Organizations & Institutions and $250 per claim for Corporate & Government.
+                        </li> 
+                        <li class="list-group-item"> 
+                            The charge for inviting a Records Management Judge (RMJ) for on-the-spot/instant recognition is additional $200 per day for every record attempt. If stay is more than 24 hours then addition $50 per day is to be paid. However, in case of mass records, the Record Management and recognition charges depend on the number of participants attempting the mass record since there can be more than one RMJ present at the record attempt. It will be mandatory for the record attempter/attempters or the sponsors of the record event to bear the travel and accommodation of the RMJ as per the norms specified by The Golden Book of World Records.
+                        </li> 
+                        <li class="list-group-item"> 
+                            We accept online claims and registrations of record attempts for completing the certification process, the attempter has to send/mail duly filled Record Application form/Record Claim Form, Few Photographs related to record, Video of record attempt and media coverage (if available) at info@goldenbookofworldrecords.com.
+                        </li> 
+                        <li class="list-group-item"> 
+                            Pendrive/ Hard Drive submitted as evidence can be sent with clearly mentioning the attempter name, record attempted, address and contact number.
+                        </li> 
+                        <li class="list-group-item"> 
+                            At least two witnesses should be present at the time of attempting the record.
+                        </li> 
+                        <li class="list-group-item"> 
+                            The complete details about all witnesses should be enclosed with the claim documents.
+                        </li> 
+                        <li class="list-group-item"> 
+                            All the documents should be duly signed by all the witnesses.
+                        </li> 
+                        <li class="list-group-item"> 
+                            Claimed Record approval and certification may take 30-45 days.
+                        </li> 
+                        <li class="list-group-item"> 
+                            Failure to produce any of the required documents can lead to the rejection of the record claim.
+                        </li> 
+                        <li class="list-group-item"> 
+                            Documents and material submitted to GBWR is supposed to become property of GBWR and GBWR is under no obligation to return any kind of claim materials/documents back to the attempter.
+                        </li> 
+                        <li class="list-group-item"> 
+                            Claim will be accepted and approved after the complete process of claim verification.
+                        </li> 
+                        <li class="list-group-item"> 
+                            Approval and certification will be published only after the complete process of attempt verification.
+                        </li> 
+                    </ol> 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingSix">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseSix"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseSix"
+                >
+                Inviting a Record Management Judge (Adjudicator)
+                </button>
+              </h2>
+              <div
+                id="flush-collapseSix"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingSix"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                    <ol class=" list-group-numbered"> 
+                        <li class="list-group-item"> 
+                            GBWR team must be notified one month prior to the date of the record attempt for sending an RMJ (adjudicator) at the attempt location.
+                        </li> 
+                        <li class="list-group-item"> 
+                            Travel and accommodation of the RMJ (adjudicator) will be the responsibility of the record attempter individual/organization or sponsor/s if any.
+                        </li> 
+                        <li class="list-group-item"> 
+                            If the record attempt is successful, the RMJ (adjudicator) can give on-the-spot certification subject to his/her complete satisfaction. In case of on-the-spot certification attempts, the approval will be solely depend on the satisfaction of the RMJ (adjudicator).
+                        </li> 
+                    </ol> 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingSeven">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseSeven"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseSeven"
+                >
+                Evidences Required
+                </button>
+              </h2>
+              <div
+                id="flush-collapseSeven"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingSeven"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                    <ol class=" list-group-numbered"> 
+                        <li class="list-group-item"> 
+                            Cover Letter (Fill all the information about your attempted record).
+                        </li> 
+                        <li class="list-group-item"> 
+                            Record Participants details with their photograph and signature.
+                        </li> 
+                        <li class="list-group-item"> 
+                            The complete detail about all witness with their photograph and signature
+                        </li> 
+                        <li class="list-group-item"> 
+                            Video Footage.
+                        </li> 
+                        <li class="list-group-item"> 
+                            High-quality color photographs.
+                        </li> 
+                        <li class="list-group-item"> 
+                            Media Coverage, if any (Audio/video/print/electronic)
+                        </li> 
+                    </ol> 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingEight">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseEight"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseEight"
+                >
+                Biggest and Smallest
+                </button>
+              </h2>
+              <div
+                id="flush-collapseEight"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingEight"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                    <ol class=" list-group-numbered"> 
+                        <li class="list-group-item"> 
+                            Object of the record can be anything living or nonliving being as well as natural or man made article.
+                        </li> 
+                        <li class="list-group-item"> 
+                            The size of object should be smaller or bigger than the average size of the object.
+                        </li> 
+                        <li class="list-group-item"> 
+                            Object should be big/small enough so that it can be considered as record.
+                        </li> 
+                        
+                    </ol> 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingNine">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseNine"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseNine"
+                >
+                Plants and Animals
+                </button>
+              </h2>
+              <div
+                id="flush-collapseNine"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingNine"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                    <ol class=" list-group-numbered"> 
+                        <li class="list-group-item"> 
+                            Natural or human influenced plants or animals with some distinction can be record.
+                        </li> 
+                        <li class="list-group-item"> 
+                            Both tamed as well as untamed animals can be considered in this category.
+                        </li> 
+                        <li class="list-group-item"> 
+                            Any thing remarkable or extraordinary in plants or animals like number, height, width, weight, size, shape etc. can be claimed as record.
+                        </li> 
+                        
+                    </ol> 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTen">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTen"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseTen"
+                >
+                Mass Record
+                </button>
+              </h2>
+              <div
+                id="flush-collapseTen"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingTen"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                    <ol class=" list-group-numbered"> 
+                        <li class="list-group-item"> 
+                            The participants of record may be unlimited but must be minimum 150 for a new record.
+                        </li> 
+                        <li class="list-group-item"> 
+                            Proper timeline should be kept in mind while attempting a record.
+                        </li> 
+                        <li class="list-group-item"> 
+                            Sitting/standing arrangement of participants should be proper so that they can be precisely counted through any particular accepted method.
+                        </li> 
+                        <li class="list-group-item"> 
+                            The attempt must take place at a location in some place which is open for all.
+                        </li> 
+                        <li class="list-group-item"> 
+                            Record attempts must take place in restricted areas with clearly marked and controlled entrances and exits. Indoor attempts must take place in a room designated for the attempts, and outdoor attempts must be secured by some physical barriers.
+                        <li class="list-group-item"> 
+                            A clear signal should be given and then all participants must start their activity simultaneously/in relay.
+                        </li> 
+                        <li class="list-group-item"> 
+                            A clear signal should be given at the end of the performing the record.
+                        </li> 
+                        <li class="list-group-item"> 
+                            A sufficient number of witnesses must be on hand to make sure that each participant performed properly, and groups of participants should be organized to make sure that witnesses can see all participants in their group clearly.
+                        </li> 
+                        <li class="list-group-item"> 
+                            Every participant counted who is within the barriers of the attempt area must fully participate in the attempt.
+                        </li> 
+                        <li class="list-group-item"> 
+                            At least two independent witness statements must confirm the exact and final figure of the total participants and attest that all guidelines were followed during the attempt.
+                        </li> 
+                        
+                    </ol> 
+
+ 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingEleven">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseEleven"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseEleven"
+                >
+                Unique Record
+                </button>
+              </h2>
+              <div
+                id="flush-collapseEleven"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingEleven"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                    <ol class=" list-group-numbered"> 
+                        <li class="list-group-item"> 
+                            There must be some uniqueness in the event or object to be claimed as record under this category.
+                        </li> 
+                        <li class="list-group-item"> 
+                            The object to be claimed as record should be first of its kind.
+                        </li> 
+                        <li class="list-group-item"> 
+                            Claimant need to give a proof that the article or piece of art is his/her own property.
+                        </li> 
+                    </ol> 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwelve">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwelve"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseTwelve"
+                >
+                Collection
+                </button>
+              </h2>
+              <div
+                id="flush-collapseTwelve"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingTwelve"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                    <ol class=" list-group-numbered"> 
+                        <li class="list-group-item"> 
+                            The collection of anything should be at least more than 200. Further it depends on type of collected material.
+                        </li> 
+                        <li class="list-group-item"> 
+                            Collected item should be countable.
+                        </li> 
+                        <li class="list-group-item"> 
+                            Collection of any thing can be considered as a record regardless of its size, shape, price, usefulness, importance or value etc.
+                        </li> 
+                        <li class="list-group-item"> 
+                            All the collected material should be in good condition. Broken/torn items will not be counted in the collection.
+                        </li> 
+                        
+                    </ol> 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThirteen">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThirteen"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseThirteen"
+                >
+                Endurance
+                </button>
+              </h2>
+              <div
+                id="flush-collapseThirteen"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingThirteen"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                    <ol class=" list-group-numbered"> 
+                        <li class="list-group-item"> 
+                            The participant should show resilience or stamina which is extra-ordinary and shows strength and capability beyond the capacity of a normal human being.
+                        </li> 
+                        <li class="list-group-item"> 
+                            Attempt must not harm any of the audience watching the record attempt.
+                        </li> 
+                        <li class="list-group-item"> 
+                            A registered medical practitioner must present during the record attempt.
+                        </li> 
+                        
+                    </ol> 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingFourteen">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFourteen"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseFourteen"
+                >
+                Young Achievers
+                </button>
+              </h2>
+              <div
+                id="flush-collapseFourteen"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingFourteen"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                    <ol class=" list-group-numbered"> 
+                        <li class="list-group-item"> 
+                            The kids who are under 18 will be considered in Young Achievers category
+                        </li> 
+                        <li class="list-group-item"> 
+                            Proof of age must be submitted along with the record claim.
+                        </li> 
+                        <li class="list-group-item"> 
+                            Record claim form must be duly signed by the guardian along with the attempter of the record.
+                        </li> 
+                        <li class="list-group-item"> 
+                            Task attempted should not harm the children physically or physiologically.
+                        </li> 
+                    </ol> 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingFifteen">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFifteen"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseFifteen"
+                >
+                Achievement & Initiatives
+                </button>
+              </h2>
+              <div
+                id="flush-collapseFifteen"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingFifteen"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                    <ol class=" list-group-numbered"> 
+                        <li class="list-group-item"> 
+                            Any achievements which are remarkable can be considered under this category of record.
+                        </li> 
+                        <li class="list-group-item"> 
+                            Any social, regional or organizational initiative which have been taken for welfare.
+                        </li> 
+                        <li class="list-group-item"> 
+                            If some thing new or good is done for the first time then it can be considered under this category of record.
+                        </li> 
+                    </ol> 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingSixteen">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseSixteen"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseSixteen"
+                >
+                One Minute Miracle
+                </button>
+              </h2>
+              <div
+                id="flush-collapseSixteen"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingSixteen"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                    <ol class=" list-group-numbered"> 
+                        <li class="list-group-item"> 
+                            The task should be completed in 1 minute.
+                        </li> 
+                        <li class="list-group-item"> 
+                            The time should be kept using an electronic stop-watch. An experienced timekeeper must keep the time of the attempt with a
+a digital stopwatch. The timekeeper must provide a statement confirming the accuracy of the timed event.
+                        </li> 
+                        <li class="list-group-item"> 
+                            In case of an event where many participants are attempting the record, a big wall clock with visible seconds display can be used.
+                        </li> 
+                        <li class="list-group-item"> 
+                            A loud start and finish signal recognized by participant and audience must be used.
+                        </li> 
+                        <li class="list-group-item"> 
+                            Photographic and video evidence must be provided. The entire attempt must be visible on video.
+                        </li> 
+                    </ol> 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingSeventeen">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseSeventeen"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseSeventeen"
+                >
+                Sports & Yoga
+                </button>
+              </h2>
+              <div
+                id="flush-collapseSeventeen"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingSeventeen"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                    <ol class=" list-group-numbered"> 
+                        <li class="list-group-item"> 
+                            The participant should show resilience or stamina which is extraordinary and shows strength and capability beyond the capacity of a normal human being.
+                        </li> 
+                        <li class="list-group-item"> 
+                            The attempt must not harm any of the audience watching the record attempt.
+                        </li> 
+                        <li class="list-group-item"> 
+                            A registered medical practitioner must present during the record attempt.
+                        </li> 
+                        <li class="list-group-item"> 
+                            In the case of New or Advance Yoga Posture, written evidence of any Yoga Institution must be Enclose.
+                        </li> 
+                    </ol> 
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Form section end -->
+
+    <!-- Footer -->
+    <footer
+      class="text-center text-white"
+      style="
+        background: conic-gradient(
+          from -0.5turn at bottom right,
+          deeppink,
+          cyan,
+          rebeccapurple
+        );
+      "
+    >
+      <!-- Grid container -->
+      <div class="container-fluid">
+        <!-- Section: Links -->
+        <section class="m-3">
+          <!-- Grid row-->
+          <div class=" text-center d-flex justify-content-center pt-5 "">
+          <!-- Grid column -->
+          <div class="mt-4 mr-4 m">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="index.html" class="text-white">Home</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="mt-4 mr-4 m">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="AboutUs.html" class="text-white">About Us</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="mt-4 mr-4 m">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!" class="text-white">Record Gallery</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="mt-4 mr-4 m">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="ApplicationIndevidual.html" class="text-white"
+                >Apply For Record</a
+              >
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="mt-4 mr-4 m">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="Procedure&Guideline.html" class="text-white">Procedure & Guideline</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+          <!-- Grid column -->
+          <div class="mt-4 mr-4 m">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="FAQ's.html" class="text-white">FAQ's</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+          <!-- Grid column -->
+          <div class="mt-4 mr-4 m">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="ContactUs.html" class="text-white">Contact Us</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid row-->
+        </section>
+        <!-- Section: Links -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        Copyright © 2023 Golden Book Of World Records owned by GBWR Talent
+        Management Pvt. Ltd., an ISO 9001:2015 Certified Company
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <!-- Javascript files-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/plugin.js"></script>
+
+    <!-- sidebar -->
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="form.js"></script>
+  </body>
+</html>
